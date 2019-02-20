@@ -58,6 +58,7 @@ public class CalculadoraController implements Initializable {
         Digito = true;
     }
 
+    @FXML
     private void Clear(ActionEvent event) {
         Digito = false;
         Punto = false;
